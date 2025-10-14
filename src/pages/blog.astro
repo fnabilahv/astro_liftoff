@@ -1,5 +1,4 @@
 ---
-
 import "../styles/global.css";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
@@ -15,7 +14,7 @@ const pageTitle = "My Astro Learning Blog";
   <meta name="generator" content={Astro.generator} />
   <title>{pageTitle}</title>
  </head>
- 
+
  <body>
   <!-- <a href="/">Home</a>
   <a href="/about/">About</a>
@@ -40,5 +39,8 @@ const pageTitle = "My Astro Learning Blog";
   </ul>
 
   <Footer />
+  <script>
+   import "../scripts/menu.js";
+  </script>
  </body>
 </html>
